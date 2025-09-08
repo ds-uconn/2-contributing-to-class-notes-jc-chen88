@@ -32,8 +32,9 @@ the command line before performing this command:
 
 `git clone git@github.com:user_name/ids-f25.git`
 
-Alternatively, You can go to the fork on Github and click on Code -> Local -> SSH
-and copy paste the SSH key into the command line after typing in `git clone`.
+Alternatively, You can go to the fork on Github and click on Code -> Local -> 
+SSH and copy paste the SSH key into the command line after typing in 
+`git clone`.
 
 ## Rendering the classnotes on your computer.
 
@@ -58,8 +59,9 @@ using this command:
 
 `quarto render`
 
-Upon running it for the first time, it will take a bit for all of the qmd files to render.
-To render a certain file, make sure to add the file name to the command above.
+Upon running it for the first time, it will take a bit for all of the qmd files 
+to render. To render a certain file, make sure to add the file name to the 
+command above.
 
 ## Making a new branch to experiment with your changes.
 
@@ -72,7 +74,7 @@ important from the main branch and overall maintain a clean, stable project.
 
 To check the branches created, simply input `git branch`.
 
-## Checkout your branch and add your wishes to the wish list; commit with an informative message; and push the changes to your GitHub account.
+## Checking out branch and adding wishes to the wish list; committing with an informative message; and push the changes to your GitHub account.
 
 To switch to the branch that was just created, use the command:
 
@@ -95,7 +97,8 @@ to track the file, and then when ready to commit, input
 
 and make an appropriate message for the changes done.
 
-Once the commit is made, use the following command to push the commits to Github:
+Once the commit is made, use the following command to push the commits to 
+Github:
 
 `git push origin new-branch-name`
 
