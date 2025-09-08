@@ -9,7 +9,7 @@ format:
     code-fold: true
     html-math-method: katex
     embed-resources: true
-    self-contained-math: true	
+    self-contained-math: true
   pdf: 
     geometry: 
       - top=30mm
@@ -17,7 +17,11 @@ format:
 ##  docx: Never, unless to accommodate a collaborator
 ---
 
-**a. Why is the command line interface if preferred among the professionals?**
+## Why is the command line interface if preferred among the professionals?
 
 The command line interface (CLI)is preferred in the professional workspace because of its efficency and flexibility that the graphical user interface (GUI) lacks. With the CLI, you can create scripts to automate mudane tasks for the computer, and it is easier to customize your environment to suit the user's needs. Using the command line is also very useful when it comes to troubleshooting and system maintenance tasks. Unlike the GUI, the CLI allows access to systems logs to diagnose issues and perform maintenance activities effectively. For programming, development tools like Git and Vim are also very useful for project managment and keeping track of code.
+
+## What are the advantages of Linux over Windows?
+
+For starters, one advantage that Linux has over Windows is that it is an open-source project, so users can freely modify and tailor the operating systems to their needs, while Windows is more restricted. Linux is also known to be less vulnerable to malware and viruses due to its handling of package management and repositories, which is good for critical work and development. With its support of a wide range of programming languages, Linux is overall the preferred system for developers and even casual users.
 
