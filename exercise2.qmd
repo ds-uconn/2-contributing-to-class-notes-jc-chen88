@@ -54,46 +54,47 @@ Binary files are usually not tracked in a repo for several reasons. Git is
 usually optimized for text-based files because it can show line by line 
 differences of when changes are made. Because binary files are hard to read, 
 it's hard to actually track the changes made, as even a tiny cahnge can make 
-the file appear totally different to Git. Because small changes generates a 
-new copy of the binary file, keeping track of the changes can significantly 
+the file appear totally different to Git. Because small changes generates a new 
+copy of the binary file, keeping track of the changes can significantly 
 increase repository size and make commits/cloning much slower.
 
 ## Why do I require pdf output via release?
 
-A PDF output via a release in Git is required because it acts as a 
-deliverable and shows a stable finalized document where it can't be 
-edited or revised like source files. A PDF ensures everyone who sees 
-it gets the same output/reference without needing to compile it from 
-the source code.
+A PDF output via a release in Git is required because it acts as a deliverable 
+and shows a stable finalized document where it can't be edited or revised like 
+source files. A PDF ensures everyone who sees it gets the same output/reference 
+without needing to compile it from the source code.
 
 ## Why do I not want your files added via ‘upload’?
 
-Files should not be added to Github through the upload feature 
-because doing so won't track the incremental commits made throughout 
-the work process, so the project history would be significantly harder 
-to read and maintain. Also, when it comes to merging, uploading files 
-could increase the risk of overwriting changes or creating conflicts 
-in the repo.
+Files should not be added to Github through the upload feature because doing so 
+won't track the incremental commits made throughout the work process, so the 
+project history would be significantly harder to read and maintain. Also, when 
+it comes to merging, uploading files could increase the risk of overwriting 
+changes or creating conflicts in the repo.
 
 ## Why do I require line width under 80?
 
-
+The line width should be under 80 characters because it helps with readability 
+for other users looking at the source code. Though it may not show on VS Code,
+if line width isn't taken into account while doing assignments the source code
+on Github will just show up as one long line, which can be very inconvenient
+for peers looking at the file.
 
 ## Why is it not a good idea to have spaces in file/folder names?
 
-Having spaces in file and folder names is discouraged because it can 
-cause problems when accessing them with the command line interface. 
-Spaces in files and folders can cause issues with file and version 
-control systems, which may not handle spaces correctly and thus would
- make the files harder to maintain. Even if certain operating systems 
- can read file names with spaces, extra steps are often needed to 
- format them which can be inconvenient in the long run (ex: 
- placing quotes around the file name in the CLI).
+Having spaces in file and folder names is discouraged because it can cause 
+problems when accessing them with the command line interface. Spaces in files 
+and folders can cause issues with file and version control systems, which may 
+not handle spaces correctly and thus would make the files harder to maintain. 
+Even if certain operating systems can read file names with spaces, extra steps 
+are often needed to format them which can be inconvenient in the long run (ex: 
+placing quotes around the file name in the CLI).
 
 ## Why do I require at least 10 commits for each assignment?
 
-10 commits for each assignment are required because it helps reinforce 
-good practice to make small incremental edits rather than large updates 
-while working through a file. That way its easy to go back and track 
-the changes and allows the user as well as collaborators to easily 
-track the progress step by step.
+10 commits for each assignment are required because it helps reinforce good 
+practice to make small incremental edits rather than large updates while 
+working through a file. That way its easy to go back and track the changes and 
+allows the user as well as collaborators to easily track the progress step by 
+step.
