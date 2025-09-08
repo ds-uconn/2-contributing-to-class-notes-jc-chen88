@@ -23,3 +23,11 @@ Forking is creating a copy of a repository which allows the user to freely
 experiment with changes without affecting the original project. To do this,
 simply click the "fork" button on the top right corner of the ids-f25 repo and
 a copy of it will appear in the user's own Github account.
+
+## Cloning the fork to an appropriate folder on your computer.
+
+The following command in Git Bash was used to clone the fork so that a copy
+of it can be worked on locally. Make sure to select the desired folder in 
+the commad line before performing this command:
+
+`git clone git@github.com:user_name/ids-f25.git`
