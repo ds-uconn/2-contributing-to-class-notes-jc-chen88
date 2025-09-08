@@ -19,27 +19,61 @@ format:
 
 ## Why is the command line interface if preferred among the professionals?
 
-The command line interface (CLI)is preferred in the professional workspace because of its efficency and flexibility that the graphical user interface (GUI) lacks. With the CLI, you can create scripts to automate mudane tasks for the computer, and it is easier to customize your environment to suit the user's needs. Using the command line is also very useful when it comes to troubleshooting and system maintenance tasks. Unlike the GUI, the CLI allows access to systems logs to diagnose issues and perform maintenance activities effectively. For programming, development tools like Git and Vim are also very useful for project managment and keeping track of code.
+The command line interface (CLI)is preferred in the professional workspace 
+because of its efficency and flexibility that the graphical user interface 
+(GUI) lacks. With the CLI, you can create scripts to automate mudane tasks 
+for the computer, and it is easier to customize your environment to suit 
+the user's needs. Using the command line is also very useful when it comes 
+to troubleshooting and system maintenance tasks. Unlike the GUI, the CLI 
+allows access to systems logs to diagnose issues and perform maintenance 
+activities effectively. For programming, development tools like Git 
+and Vim are also very useful for project managment and keeping track of code.
 
 ## What are the advantages of Linux over Windows?
 
-For starters, one advantage that Linux has over Windows is that it is an open-source project, so users can freely modify and tailor the operating systems to their needs, while Windows is more restricted. Linux is also known to be less vulnerable to malware and viruses due to its handling of package management and repositories, which is good for critical work and development. With its support of a wide range of programming languages, Linux is overall the preferred system for developers and even casual users.
+For starters, one advantage that Linux has over Windows is that it is 
+an open-source project, so users can freely modify and tailor the operating 
+systems to their needs, while Windows is more restricted. Linux is also known 
+to be less vulnerable to malware and viruses due to its handling of package 
+management and repositories, which is good for critical work and development. 
+With its support of a wide range of programming languages, Linux is overall 
+the preferred system for developers and even casual users.
 
 ## What are the differences between binary and source files?
 
-Binary files contain machine-readable code, usually in the format of 0s and 1s, that taken from the computer's processor, while the source files has human-friendly readable code. Binary code is executed directly by the computer while the source code is translated into binary code before the execution. Examples of binary code include machine language and assembly, while source code is languages like C++ and Python.
+Binary files contain machine-readable code, usually in the format of 0s and 1s, 
+that taken from the computer's processor, while the source files has 
+human-friendly readable code. Binary code is executed directly by the computer 
+while the source code is translated into binary code before the execution. 
+Examples of binary code include machine language and assembly, while source 
+code is languages like C++ and Python.
 
 ## Why do we not want to track binary files in a repo?
 
-Binary files are usually not tracked in a repo for several reasons. Git is usually optimized for text-based files because it can show line by line differences of when changes are made. Because binary files are hard to read, it's hard to actually track the changes made, as even a tiny cahnge can make the file appear totally different to Git. Because small changes generates a new copy of the binary file, keeping track of the changes can significantly increase repository size and make commits/cloning much slower.
+Binary files are usually not tracked in a repo for several reasons. Git is 
+usually optimized for text-based files because it can show line by line 
+differences of when changes are made. Because binary files are hard to read, 
+it's hard to actually track the changes made, as even a tiny cahnge can make 
+the file appear totally different to Git. Because small changes generates a 
+new copy of the binary file, keeping track of the changes can significantly 
+increase repository size and make commits/cloning much slower.
 
 ## Why do I require pdf output via release?
 
-A PDF output via a release in Git is required because it acts as a deliverable and shows a stable finalized document where it can't be edited or revised like source files. A PDF ensures everyone who sees it gets the same output/reference without needing to compile it from the source code.
+A PDF output via a release in Git is required because it acts as a 
+deliverable and shows a stable finalized document where it can't be 
+edited or revised like source files. A PDF ensures everyone who sees 
+it gets the same output/reference without needing to compile it from 
+the source code.
 
 ## Why do I not want your files added via ‘upload’?
 
-Files should not be added to Github through the upload feature because doing so won't track the incremental commits made throughout the work process, so the project history would be significantly harder to read and maintain. Also, when it comes to merging, uploading files could increase the risk of overwriting changes or creating conflicts in the repo.
+Files should not be added to Github through the upload feature 
+because doing so won't track the incremental commits made throughout 
+the work process, so the project history would be significantly harder 
+to read and maintain. Also, when it comes to merging, uploading files 
+could increase the risk of overwriting changes or creating conflicts 
+in the repo.
 
 ## Why do I require line width under 80?
 
@@ -47,8 +81,19 @@ Files should not be added to Github through the upload feature because doing so 
 
 ## Why is it not a good idea to have spaces in file/folder names?
 
-Having spaces in file and folder names is discouraged because it can cause problems when accessing them with the command line interface. Spaces in files and folders can cause issues with file and version control systems, which may not handle spaces correctly and thus would make the files harder to maintain. Even if certain operating systems can read file names with spaces, extra steps are often needed to format them which can be inconvenient in the long run (ex: placing quotes around the file name in the CLI).
+Having spaces in file and folder names is discouraged because it can 
+cause problems when accessing them with the command line interface. 
+Spaces in files and folders can cause issues with file and version 
+control systems, which may not handle spaces correctly and thus would
+ make the files harder to maintain. Even if certain operating systems 
+ can read file names with spaces, extra steps are often needed to 
+ format them which can be inconvenient in the long run (ex: 
+ placing quotes around the file name in the CLI).
 
 ## Why do I require at least 10 commits for each assignment?
 
-10 commits for each assignment are required because it helps reinforce good practice to make small incremental edits rather than large updates while working through a file. That way its easy to go back and track the changes and allows the user as well as collaborators to easily track the progress step by step.
+10 commits for each assignment are required because it helps reinforce 
+good practice to make small incremental edits rather than large updates 
+while working through a file. That way its easy to go back and track 
+the changes and allows the user as well as collaborators to easily 
+track the progress step by step.
