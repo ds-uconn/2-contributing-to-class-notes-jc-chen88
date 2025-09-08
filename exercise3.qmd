@@ -1,5 +1,5 @@
 ---
-title: "Exercise 3"
+title: "Exercises 2 and 3"
 author: "Jingang Chen"
 toc: true
 number-sections: true
@@ -16,6 +16,7 @@ format:
       - left=20mm
 ##  docx: Never, unless to accommodate a collaborator
 ---
+# Exercise 3
 
 ## Creating a fork of the notes repo into my GitHub account.
 
