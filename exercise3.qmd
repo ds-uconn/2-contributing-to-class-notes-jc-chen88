@@ -90,8 +90,19 @@ to track the file, and then when ready to commit, input
 
 `git commit -m "insert informative message"`
 
-and make an appropriate messages for the changes done.
+and make an appropriate message for the changes done.
 
 Once the commit is made, use the following command to push the commits to Github:
 
 `git push origin new-branch-name`
+
+## Making a pull request to class notes repo from your fork at GitHub.
+
+Once the commits show up on your fork on Github, there should be a 
+"Compare & pull request" button that shows up for the branch that was
+modified. From there, you can add a title and a message depicting the
+changes that were made to the file. Prior to submitting the pull request,
+make sure that the base repo and branch selected is the one that 
+was originally forked (usually the base branch will be *main*),
+and the compare branch is the branch that you were working with.
+Once that is confirmed, click "Create pull request".
