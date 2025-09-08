@@ -59,3 +59,12 @@ Upon running it for the first time, it will take a bit for all of the qmd files 
 To render a certain file, make sure to add the file name to the command above.
 
 ## Making a new branch to experiment with your changes.
+
+To create a new branch, input this command:
+
+`git branch new-branch-name`
+
+This new branch will allow you to safely experiment without breaking anything 
+important from the main branch and overall maintain a clean, stable project.
+
+To check the branches created, simply input `git branch`.
