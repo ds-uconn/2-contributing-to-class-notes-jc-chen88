@@ -31,3 +31,21 @@ of it can be worked on locally. Make sure to select the desired folder in
 the commad line before performing this command:
 
 `git clone git@github.com:user_name/ids-f25.git`
+
+## Rendering the classnotes on your computer.
+
+Once the repository is cloned locally, the next step is rendering it to see
+the output. An obstacle that comes with this is that the packages required
+for quarto to render may not be installed. To navigate this, first create
+a virtual enviornment in Git Bash using this command:
+
+`python -m venv venv`
+
+Then to activate it, use:
+
+`source venv/Scripts/activate`
+
+Once the virtual enviornment is activated, use this command to install
+all the packages that is listed in requirements.txt in this repo:
+
+`pip install -r requirements.txt`
