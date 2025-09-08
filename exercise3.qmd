@@ -49,3 +49,13 @@ Once the virtual enviornment is activated, use this command to install
 all the packages that is listed in requirements.txt in this repo:
 
 `pip install -r requirements.txt`
+
+Once all the packages are installed the repo can finally be rendered
+using this command:
+
+`quarto render`
+
+Upon running it for the first time, it will take a bit for all of the qmd files to render
+To render a certain file, make sure to add the file name to the command above.
+
+## Making a new branch to experiment with your changes.
