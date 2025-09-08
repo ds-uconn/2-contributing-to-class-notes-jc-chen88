@@ -41,3 +41,14 @@ A PDF output via a release in Git is required because it acts as a deliverable a
 
 Files should not be added to Github through the upload feature because doing so won't track the incremental commits made throughout the work process, so the project history would be significantly harder to read and maintain. Also, when it comes to merging, uploading files could increase the risk of overwriting changes or creating conflicts in the repo.
 
+## Why do I require line width under 80?
+
+
+
+## Why is it not a good idea to have spaces in file/folder names?
+
+Having spaces in file and folder names is discouraged because it can cause problems when accessing them with the command line interface. Spaces in files and folders can cause issues with file and version control systems, which may not handle spaces correctly and thus would make the files harder to maintain. Even if certain operating systems can read file names with spaces, extra steps are often needed to format them which can be inconvenient in the long run (ex: placing quotes around the file name in the CLI).
+
+## Why do I require at least 10 commits for each assignment?
+
+10 commits for each assignment are required because it helps reinforce good practice to make small incremental edits rather than large updates while working through a file. That way its easy to go back and track the changes and allows the user as well as collaborators to easily track the progress step by step.
