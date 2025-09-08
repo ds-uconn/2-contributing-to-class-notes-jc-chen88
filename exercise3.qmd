@@ -73,7 +73,7 @@ To check the branches created, simply input `git branch`.
 
 To switch to the branch that was just created, use the command:
 
-`git checkout branch-name`
+`git checkout new-branch-name`
 
 Once you're on the newly created branch, edits can be made to the wishlist.
 To created bulleted items below your name, navigate
@@ -84,3 +84,14 @@ should look something like this:
 + Your name
     - item 1
     - item 2
+
+Once the appropriate edits have been made, input `git add index.qmd` in Git Bash
+to track the file, and then when ready to commit, input
+
+`git commit -m "insert informative message"`
+
+and make an appropriate messages for the changes done.
+
+Once the commit is made, use the following command to push the commits to Github:
+
+`git push origin new-branch-name`
