@@ -68,3 +68,19 @@ This new branch will allow you to safely experiment without breaking anything
 important from the main branch and overall maintain a clean, stable project.
 
 To check the branches created, simply input `git branch`.
+
+## Checkout your branch and add your wishes to the wish list; commit with an informative message; and push the changes to your GitHub account.
+
+To switch to the branch that was just created, use the command:
+
+`git checkout branch-name`
+
+Once you're on the newly created branch, edits can be made to the wishlist.
+To created bulleted items below your name, navigate
+to your name in *Students in 3255* in *index.qmd*, and below your name,
+put in four spaces to appropriately indent and create a nested list. The output
+should look something like this:
+
++ Your name
+    - item 1
+    - item 2
