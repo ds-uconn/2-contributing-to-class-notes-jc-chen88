@@ -1,0 +1,115 @@
+---
+title: "Exercises 2 and 3"
+author: "Jingang Chen"
+toc: true
+number-sections: true
+highlight-style: pygments
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+    embed-resources: true
+    self-contained-math: true	
+  pdf: 
+    geometry: 
+      - top=30mm
+      - left=20mm
+##  docx: Never, unless to accommodate a collaborator
+---
+# Exercise 3
+
+## Creating a fork of the notes repo into my GitHub account.
+
+Forking is creating a copy of a repository which allows the user to freely
+experiment with changes without affecting the original project. To do this,
+simply click the "fork" button on the top right corner of the ids-f25 repo and
+a copy of it will appear in the user's own Github account.
+
+## Cloning the fork to an appropriate folder on your computer.
+
+The following command in Git Bash was used to clone the fork so that a copy
+of it can be worked on locally. Make sure to select the desired folder in 
+the command line before performing this command:
+
+`git clone git@github.com:user_name/ids-f25.git`
+
+Alternatively, You can go to the fork on Github and click on Code -> Local -> 
+SSH and copy paste the SSH key into the command line after typing in 
+`git clone`.
+
+## Rendering the classnotes on your computer.
+
+Once the repository is cloned locally, the next step is rendering it to see
+the output. An obstacle that comes with this is that the packages required
+for quarto to render may not be installed. To navigate this, first create
+a virtual enviornment in Git Bash using this command:
+
+`python -m venv venv`
+
+Then to activate it, use:
+
+`source venv/Scripts/activate`
+
+Once the virtual enviornment is activated, use this command to install
+all the packages that is listed in requirements.txt in this repo:
+
+`pip install -r requirements.txt`
+
+Once all the packages are installed the repo can finally be rendered
+using this command:
+
+`quarto render`
+
+Upon running it for the first time, it will take a bit for all of the qmd files 
+to render. To render a certain file, make sure to add the file name to the 
+command above.
+
+## Making a new branch to experiment with your changes.
+
+To create a new branch, input this command:
+
+`git branch new-branch-name`
+
+This new branch will allow you to safely experiment without breaking anything 
+important from the main branch and overall maintain a clean, stable project.
+
+To check the branches created, simply input `git branch`.
+
+## Checking out branch and adding wishes to the wish list; committing with an informative message; and push the changes to your GitHub account.
+
+To switch to the branch that was just created, use the command:
+
+`git checkout new-branch-name`
+
+Once you're on the newly created branch, edits can be made to the wishlist.
+To created bulleted items below your name, navigate
+to your name in *Students in 3255* in *index.qmd*, and below your name,
+put in four spaces to appropriately indent followed by the "-" character 
+and create a nested list. The output should look something like this:
+
++ Your name
+    - item 1
+    - item 2
+
+Once the appropriate edits have been made, input `git add index.qmd` in Git Bash
+to track the file, and then when ready to commit, input
+
+`git commit -m "insert informative message"`
+
+and make an appropriate message for the changes done.
+
+Once the commit is made, use the following command to push the commits to 
+Github:
+
+`git push origin new-branch-name`
+
+## Making a pull request to class notes repo from your fork at GitHub.
+
+Once the commits show up on your fork on Github, there should be a 
+"Compare & pull request" button that shows up for the branch that was
+modified. From there, you can add a title and a message depicting the
+changes that were made to the file. Prior to submitting the pull request,
+make sure that the base repo and branch selected is the one that 
+was originally forked (usually the base branch will be *main*),
+and the compare branch is the branch that you were working with.
+Once that is confirmed, click "Create pull request".
